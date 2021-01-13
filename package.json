@@ -1,0 +1,38 @@
+{
+  "name": "study-notes",
+  "version": "1.0.0",
+  "description": "📒学习笔记",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B1gF4ceC4t/study-notes.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "Faye",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "cz-customizable": "^6.3.0",
+    "husky": "^4.3.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B1gF4ceC4t/study-notes/issues"
+  },
+  "homepage": "https://github.com/B1gF4ceC4t/study-notes#readme"
+}
