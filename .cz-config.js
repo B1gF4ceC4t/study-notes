@@ -31,7 +31,8 @@ module.exports = {
 
 	scopes: [
 		{ name: "JavaScript" },
-		{ name: "React 相关" }
+		{ name: "React" },
+        { name: "Redux"}
 	],
 
 	// it needs to match the value for field type. Eg.: 'fix'
