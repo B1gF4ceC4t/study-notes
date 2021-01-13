@@ -30,8 +30,8 @@ module.exports = {
 	],
 
 	scopes: [
-		{ name: "rules" },
-		{ name: "tests" }
+		{ name: "JavaScript" },
+		{ name: "React 相关" }
 	],
 
 	// it needs to match the value for field type. Eg.: 'fix'
